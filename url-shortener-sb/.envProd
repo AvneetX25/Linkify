@@ -1,14 +1,2 @@
 
-DATABASE_URL=jdbc:postgresql://ep-rapid-band-a5zk7gzk-pooler.us-east-2.aws.neon.tech/neondb?user=neondb_owner&password=npg_cQ0pCz3VItEa&sslmode=require&channelBinding=require
-DATABASE_USERNAME=neondb_owner
-DATABASE_PASSWORD=npg_cQ0pCz3VItEa
-DATABASE_DIALECT=org.hibernate.dialect.PostgreSQLDialect
-JWT_SECRET=8fj39slf82sl0932kfjw9283kdlsla82
-FRONTEND_URL=http://localhost:5173
 
-$env:DATABASE_URL="jdbc:postgresql://ep-rapid-band-a5zk7gzk-pooler.us-east-2.aws.neon.tech/neondb?user=neondb_owner&password=npg_cQ0pCz3VItEa&sslmode=require&channelBinding=require"
-$env:DATABASE_USERNAME="neondb_owner"
-$env:DATABASE_PASSWORD="npg_cQ0pCz3VItEa"
-$env:DATABASE_DIALECT="org.hibernate.dialect.PostgreSQLDialect"
-$env:JWT_SECRET="8fj39slf82sl0932kfjw9283kdlsla82"
-$env:FRONTEND_URL="http://localhost:5173"
